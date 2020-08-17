@@ -1,0 +1,228 @@
+body {
+    background-image: url('./Assets/Images/iphone-notebook-pen-working-34088.jpg');
+    color: ivory;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#mainHeader {
+    position: relative;
+    margin-left: 28%;
+    margin-top: 20px;
+    font-size: 48px;
+    text-shadow: 5px 5px 5px black;
+    font-size: 3.5vw;
+}
+
+.ab-table {
+    font-size: 20px;
+    margin-top: 35px;
+    width: 95%;
+    margin: auto;
+}
+
+@media only screen and (max-width: 1087px) {
+    .ab-table { 
+       font-size: .1em; 
+    }
+ }
+
+ @media only screen and (min-width: 1086px) {
+    .ab-table { 
+       font-size: 1em; 
+    }
+ }
+
+.ab-table-row {
+    display: flex;
+}
+
+.ab-table-col {
+    background-color: rgba(48, 142, 152, 0.9);
+    margin: 2px;
+    padding: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ab-name {
+    flex-basis: 13%;
+}
+
+.ab-phone {
+    flex-basis: 13%;
+}
+
+.ab-email {
+    flex-basis: 19%;
+}
+
+.ab-address {
+    flex-basis: 25%;
+    flex-grow: 2;
+}
+
+.header {
+    background-color: rgba(235, 53, 45, 1);
+    font-weight: bolder;
+}
+
+.edit, .delete, .ab-add-entry-col {
+    /*flex-basis: 7.8%;*/
+    width: 95px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.ab-edit {
+    background-color: rgba(0, 133, 182, 0.9);
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.ab-delete {
+    background-color: rgba(255, 102, 0, 0.9);
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+#newPersonModal {
+    width: 510px;
+    padding: 10px;
+    border-radius: 3px;
+    z-index: 99;
+    top: 50px;
+    position: absolute;
+    margin-left: calc(50% - 250px);
+    background-color: rgb(192,192,192);
+}
+
+#formAddUser > .form-ctrl > input {
+    width: 441.5px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    padding: 10px;
+    display: block;
+}
+
+#formAddUser > .form-ctrl > .message {
+    margin-bottom: 20px;
+}
+
+#backdrop {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 50;
+    top: 0;
+    left: 0;
+}
+
+.form-ctrl.success input {
+    border-color: #5DFC0A;
+}
+
+.form-ctrl.error input {
+    border-color: #F70D1A;
+}
+
+.form-ctrl i {
+    position: absolute;
+    left: 10px;
+    visibility: hidden;
+}
+
+.form-ctrl.success i.fa-check-circle {
+    color: #5DFC0A;
+    visibility: visible;
+}
+
+.form-ctrl.error i.fa-times-circle {
+    color: #F70D1A;
+    visibility: visible;
+}
+
+.form-ctrl small {
+    margin-left: 20px;
+    visibility: hidden;
+    position: absolute;
+}
+
+.form-ctrl.error small {
+    color: #F70D1A;
+    visibility: visible;
+    margin-left: 20px;
+}
+
+#newPersonSubmitBtn {
+    background-color: rgb(0, 133, 182);
+    color: ivory;
+    margin-right: 13px;
+}
+
+#newPersonCancelBtn {
+    background-color: rgb(235, 53, 45);
+    color: ivory;
+    margin-right: 41.5px;
+}
+
+button {
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    float: right;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    padding: 13px;
+}
+
+#login {
+    background-color: #1c4966;
+    color: ivory;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#signup {
+    background-color: #296d98;
+    color: ivory;
+    padding-left: 20px;
+    padding-right: 25px;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#login:hover {
+    padding: 13px;
+}
+
+#signup:hover {
+    padding: 13px;
+}
+
+.disable-modal {
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.enable-modal {
+    visibility: visible;
+}
+
+i {
+    pointer-events: none;
+}

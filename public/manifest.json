@@ -1,0 +1,8 @@
+{
+    "name": "Contact Management System App",
+    "short_name": "Address Book",
+    "start_url": "/index.html",
+    "background-image": "./Assets/Images/iphone-notebook-pen-working-34088.jpg",
+    "display": "standalone",
+    "scope": ""
+}
