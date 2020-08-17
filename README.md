@@ -47,7 +47,7 @@ on the server.js file.
    * ES6
    * jQuery
    * JSON
-   * Regular Expressions (For Form-Validation)
+   * Regular Expressions (used for: Form-Validation)
 4. Node.js
    * Web Application Framework: Express.js
    * Body-Parser (middleware)
