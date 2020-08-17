@@ -14,6 +14,12 @@ contacts are fictional characters that were included by default.
 
 Link on Github Repository (original version): https://github.com/Juan-Moctezuma/Address-Book-Project
 
+### What command lines are required after setting up the files?
+
+`npm init -y`
+
+`npm install express body-parser`
+
 ### How to run local web server for testing purposes?
 
 `python -m SimpleHTTPServer 1779`
@@ -44,5 +50,5 @@ on the server.js file.
    * Regular Expressions (For Form-Validation)
 4. Node.js
    * Web Application Framework: Express.js
-   * Body-Parser
+   * Body-Parser (middleware)
 5. Python 2 (via Live/local Server)
