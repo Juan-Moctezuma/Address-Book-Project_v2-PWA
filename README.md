@@ -16,14 +16,15 @@ contacts are fictional characters that were included by default.
 
 ### PWA's folder structure vs. Static / Vanilla JS website's architecture
 
-Version 1 - Original
+#### Version 1 - Original
 1. Assets:
    	* Images: Background-image jpg
 2. index.html
 3. main.css
 4. main.js
 
-Version 2 - PWA 
+
+#### Version 2 - PWA 
 NOTE: Sections 1 - 3 are created via terminal - see next paragraph
 1. node_modules (folder NOT included on repository due to size)
 2. package-lock.json
