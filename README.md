@@ -6,7 +6,7 @@ The script in this repository represents a modified version of the
 Address-Book-Project / Contact Management System; the link to the 
 original version is provided below.
 
-Link for Github Repository (original version): https://github.com/Juan-Moctezuma/Address-Book-Project
+Github Repository (original version): https://github.com/Juan-Moctezuma/Address-Book-Project
 
 The address book's code allows changes to get automatically 
 saved in your browser. Meaning that any added / deleted person(s), or 
@@ -23,7 +23,8 @@ Version 1 - Original
 3. main.css
 4. main.js
 
-Version 2 - PWA
+Version 2 - PWA 
+NOTE: Sections 1 - 3 are created via terminal - see next paragraph
 1. node_modules (folder NOT included on repository due to size)
 2. package-lock.json
 3. package.json
@@ -34,7 +35,7 @@ Version 2 - PWA
 	* index.html
   	* main.css
   	* main.js
-  	* manifest.json (essential component)
+  	* manifest.json
   	* sw.js (JavaScript Service Worker)
 
 ### What command lines are required after setting up the files?
@@ -58,7 +59,7 @@ NOTE that you don't need to request port 1779, you may use (e.g.) 8000.
 Yes, but only once; afterwards you can simply visit your your local host on Google 
 Chrome and your script should be able to run with or without internet connection.
 
-If you decide to run my code be sure to use the following link
+If you decide to run this code, be sure to use the following link
 in order to view the app: http://localhost:1779/public/
 
 Please note that you don't need to use port 1779, you can change it
