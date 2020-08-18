@@ -3,8 +3,8 @@
 ### Introduction
 
 The script in this repository represents a modified version of the
-Address-Book-Project / contact management system; the link to the original
-version is provided below.
+Address-Book-Project / Contact Management System; the link to the 
+original version is provided below.
 
 The address book's code allows changes to get automatically 
 saved in your browser. Meaning that any added / deleted person(s), or 
@@ -26,7 +26,7 @@ Link on Github Repository (original version): https://github.com/Juan-Moctezuma/
 
 if you are on Mac, use terminal and type the previous command; but first 
 make sure you are in the correct directory (the folder containing your project).
-NOTE that you don't need to request port 9000, you may use (e.g.) 8000.
+NOTE that you don't need to request port 1779, you may use (e.g.) 8000.
 
 ### Does the code require a local web server to run?
 Yes, but only once; afterwards you can simply visit your your local host on Google Chrome
