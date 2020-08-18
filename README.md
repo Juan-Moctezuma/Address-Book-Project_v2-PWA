@@ -14,8 +14,8 @@ modifications done to elements within your address book will remain
 after refreshing or closing your browser. Please note that your initial
 contacts are fictional characters that were included by default.
 
-Github Repository (original version): https://github.com/Juan-Moctezuma/Address-Book-Project
-Github Page (Original version): https://juan-moctezuma.github.io/Address-Book-Project/
+1. Github Repository (original version): https://github.com/Juan-Moctezuma/Address-Book-Project
+2. Github Page (Original version): https://juan-moctezuma.github.io/Address-Book-Project/
 
 ### What is a PWA?
 It's a web app that will not crash if there's no internet access. Anyhow, 
