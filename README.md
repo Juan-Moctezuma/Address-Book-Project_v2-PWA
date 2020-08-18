@@ -3,7 +3,7 @@
 ### Introduction
 
 The script in this repository represents a modified version of the
-Address-Book-Project / Contact Management System; the link to the 
+Address-Book-Project / Contact Management System; the links to the 
 original version is provided at the end of the paragraph. The simple 
 address book website was converted into a progressive web application
 (PWA).  
