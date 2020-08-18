@@ -4,16 +4,18 @@
 
 The script in this repository represents a modified version of the
 Address-Book-Project / Contact Management System; the link to the 
-original version is provided below. T simple address book website 
-was converted into a progressive web application (PWA).  
-
-Github Repository (original version): https://github.com/Juan-Moctezuma/Address-Book-Project
+original version is provided at the end of the paragraph. The simple 
+address book website was converted into a progressive web application
+(PWA).  
 
 The address book's code allows changes to get automatically 
 saved in your browser. Meaning that any added / deleted person(s), or 
 modifications done to elements within your address book will remain
 after refreshing or closing your browser. Please note that your initial
 contacts are fictional characters that were included by default.
+
+Github Repository (original version): https://github.com/Juan-Moctezuma/Address-Book-Project
+Github Page (Original version): https://juan-moctezuma.github.io/Address-Book-Project/
 
 ### What is a PWA?
 It's a web app that will not crash if there's no internet access. Anyhow, 
