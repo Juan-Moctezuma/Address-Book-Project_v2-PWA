@@ -20,7 +20,7 @@ Version 1 - Original
 1. Assets:
    	* Images:
    		1. Background-image jpg
-2.index.html
+2. index.html
 3. main.css
 4. main.js
 
