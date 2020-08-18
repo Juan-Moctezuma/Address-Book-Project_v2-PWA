@@ -30,7 +30,7 @@ Version 2 - PWA
 4. server.js
 5. public:
 	* Assets:
-        	a. Images: Background-image jpg
+        1. Images: Background-image jpg
 	* index.html
   	* main.css
   	* main.js
