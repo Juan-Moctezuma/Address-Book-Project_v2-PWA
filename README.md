@@ -14,6 +14,31 @@ modifications done to elements within your address book will remain
 after refreshing or closing your browser. Please note that your initial
 contacts are fictional characters that were included by default.
 
+### PWA's folder structure vs. Static / Vanilla JS website's architecture
+
+Version 1 - Original
+1. Assets:
+   * Images:
+    1. Background-image jpg
+2.index.html
+3. main.css
+4. main.js
+
+Version 2 - PWA
+1. node_modules (folder NOT included on repository due to size)
+2. package-lock.json
+3. package.json
+4. server.js
+5. public:
+	* Assets:
+        1. Images:
+          * Background-image jpg
+	* index.html
+  * main.css
+  * main.js
+  * manifest.json (essential component)
+  * sw.js (JavaScript Service Worker)
+
 ### What command lines are required after setting up the files?
 
 `npm init -y`
