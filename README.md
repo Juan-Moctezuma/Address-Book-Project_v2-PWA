@@ -24,7 +24,7 @@ PWA are able to load fetched data when there is no network, sync in the backgrou
 and seamlessly do things while providing a native-like experience for users.
 
 ### What is the difference between the original version and the PWA?
-There functionality is identical, however the PWA will open and load without
+Their functionality is identical, however the PWA will open and load without
 internet / wi-fi. The original version depends entirely on the network.
 
 ### PWA's folder structure vs. Static / Vanilla JS website's architecture
