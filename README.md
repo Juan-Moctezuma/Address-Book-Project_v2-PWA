@@ -47,6 +47,8 @@ NOTE: Sections 1 - 3 are created via terminal - see next paragraph
 
 If you are on Mac, use terminal and type the previous command; but first 
 make sure you are in the correct directory (the folder containing your project).
+Node_modules, package-lock.json & package.json will get created after running 
+the previous commands.
 
 ### How to run local web server for testing purposes?
 
