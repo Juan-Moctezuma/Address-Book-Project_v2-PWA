@@ -32,7 +32,7 @@ Version 2 - PWA
 5. public:
 	* Assets:
         	1. Images:
-          	   * Background-image jpg
+          		a. Background-image jpg
 	* index.html
   	* main.css
   	* main.js
