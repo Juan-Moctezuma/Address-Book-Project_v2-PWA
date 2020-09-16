@@ -30,14 +30,13 @@ internet / wi-fi. The original version depends entirely on the network.
 ### PWA's folder structure vs. Static / Vanilla JS website's architecture
 
 #### Version 1 - Original
-
-
+<img src="Image/Directory-Address-Book.png" width="50%">
 
 #### Version 2 - PWA 
+<img src="Image/Directory-PWA.png" width="50%">
 
 
-
-### What command lines are required after setting up the files?
+### What command lines are required after setting up the files (Case in which the app was previously a static website)?
 
 `npm init -y`
 
@@ -47,14 +46,6 @@ If you are on Mac, use terminal and type the previous command; but first
 make sure you are in the correct directory (the folder containing your project).
 Node_modules, package-lock.json & package.json will get created after running 
 the previous commands.
-
-### How to run local web server for testing purposes?
-
-`python -m SimpleHTTPServer 1779`
-
-If you are on Mac, use terminal and type the previous command; but first 
-make sure you are in the correct directory (the folder containing your project).
-NOTE that you don't need to request port 1779, you may use (e.g.) 8000.
 
 ### Does the code require a local web server to run?
 Yes, but only once; afterwards you can simply visit your your local host on Google 
@@ -68,9 +59,9 @@ on the server.js file.
 
 ### Technologies
 
-1. HTML
-2. CSS
-   * Responsive Framework: Bootstrap
+1. HTML5
+2. CSS3
+   * Responsive Framework: Bootstrap 4
 3. JavaScript
    * ES6
    * jQuery
