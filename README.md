@@ -1,4 +1,4 @@
-# Address-Book-Project_v2-PWA
+# Address Book Version 2 - Progressive Web App
 
 ### Introduction
 
@@ -30,27 +30,12 @@ internet / wi-fi. The original version depends entirely on the network.
 ### PWA's folder structure vs. Static / Vanilla JS website's architecture
 
 #### Version 1 - Original
-1. Assets:
-   	* Images: Background-image jpg
-2. index.html
-3. main.css
-4. main.js
+
 
 
 #### Version 2 - PWA 
-NOTE: Sections 1 - 3 are created via terminal - see next paragraph
-1. node_modules (folder NOT included on repository due to size)
-2. package-lock.json
-3. package.json
-4. server.js
-5. public:
-	* Assets:
-        1. Images: Background-image jpg
-	* index.html
-  	* main.css
-  	* main.js
-  	* manifest.json
-  	* sw.js (JavaScript Service Worker)
+
+
 
 ### What command lines are required after setting up the files?
 
