@@ -35,18 +35,6 @@ internet / wi-fi. The original version depends entirely on the network.
 #### Version 2 - PWA 
 <img src="Image/Directory-PWA.png" width="50%">
 
-
-### What command lines are required after setting up the files (Case in which the app was previously a static website)?
-
-`npm init -y`
-
-`npm install express body-parser`
-
-If you are on Mac, use terminal and type the previous command; but first 
-make sure you are in the correct directory (the folder containing your project).
-Node_modules, package-lock.json & package.json will get created after running 
-the previous commands.
-
 ### Does the code require a local web server to run?
 Yes, but only once; afterwards you can simply visit your your local host on Google 
 Chrome and your script should be able to run with or without internet connection.
@@ -67,7 +55,7 @@ on the server.js file.
    * jQuery
    * JSON
    * Regular Expressions (used for: Form-Validation)
-4. Node.js
-   * Web Application Framework: Express.js
+4. Node.js (Server-Side)
+5. NPM Modules
+   * Express
    * Body-Parser (middleware)
-5. Python 2 (via Live/local Server)
