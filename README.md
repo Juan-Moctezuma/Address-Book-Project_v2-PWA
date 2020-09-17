@@ -15,7 +15,7 @@ after refreshing or closing your browser. Please note that your initial
 contacts are fictional characters that were included by default.
 
 1. Github Repository (original version): https://github.com/Juan-Moctezuma/Address-Book-Project
-2. Github Page (Original version): https://juan-moctezuma.github.io/Address-Book-Project/
+2. Github Page (Original static website): https://juan-moctezuma.github.io/Address-Book-Project/
 
 ### What is a PWA?
 It's a web app that will not crash if there's no internet access. Anyhow, 
@@ -40,7 +40,7 @@ Yes, but only once; afterwards you can simply visit your your local host on Goog
 Chrome and your script should be able to run with or without internet connection.
 
 If you decide to run this code, be sure to use the following link
-in order to view the app: http://localhost:1779/public/
+in order to view the app, use any link: http://localhost:1779/public/ or http://localhost:1779/
 
 Please note that you don't need to use port 1779, you can change it
 on the server.js file.
